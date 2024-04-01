@@ -9,7 +9,17 @@ public class Main {
         }
 
         System.out.println("Task2");
+        int teamperature = -12;
+        if (teamperature < 5) {
+            System.out.println("На улице " + teamperature + " градусов, нужно надеть шапку");
+        }
+        else {
+            System.out.println("На улице " + teamperature + " градусов, можно идти без шапки");
 
-
+        }
     }
+
+
+
+
 }
