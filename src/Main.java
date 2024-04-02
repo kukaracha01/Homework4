@@ -24,8 +24,26 @@ public class Main {
             System.out.println("Если скорость " + speed + ", то придется заплатить штраф");
         } else {
             System.out.println("Если скорость " + speed + ", то можно ездить спокойно");
-
         }
+
+        System.out.println("Task4");
+        int newAge = 19;
+        if (newAge >= 2 && newAge <= 6) {
+            System.out.println("Если возраст человека равен " + newAge + ", то ему нужно ходить в детский сад");
+        }
+        if (newAge >= 7 && newAge <= 17) {
+            System.out.println("Если возраст человека равен " + newAge + ", то ему нужно ходить в школу");
+        }
+        if (newAge >= 18 && newAge <= 24) {
+            System.out.println("Если возраст человека равен " + newAge + ", то ему нужно ходить в университет");
+        }
+        else {
+            System.out.println("Если возраст человека равен " + newAge + ", то ему нужно ходить на работу");
+        }
+
+        System.out.println("Task5");
+
+
     }
 
 
