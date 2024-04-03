@@ -70,6 +70,31 @@ public class Main {
             System.out.println("Вагон полностью забит");
         }
 
+        System.out.println("Task7");
+
+        int one = 15;
+        int two = 17;
+        int three = 5;
+        boolean oneTheBigest;
+        if (one > two && one > three) {
+            oneTheBigest = true;
+            System.out.println("Первое число самое большое из трех");
+        }
+        else oneTheBigest = false;
+        boolean twoTheBigest;
+        if (two > one && two >three) {
+            twoTheBigest = true;
+            System.out.println("Второе число самое большое из трех");
+        }
+        else twoTheBigest = false;
+        boolean threeTheBigest;
+        if (three > two && three > one) {
+            threeTheBigest = true;
+            System.out.println("Третье число самое большое из трех");
+        }
+        else threeTheBigest = false;
+
+
 
 
 
