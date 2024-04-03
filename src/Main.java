@@ -53,6 +53,27 @@ public class Main {
             System.out.println("Если возраст ребенка равен " + ageChild + ", то ему можно кататься без сопровождения взрослых");
         }
 
+        System.out.println("Task6");
+        int totalPlaces = 102;
+        int seatingPlacesInCarriage = 60;
+        int standingPlacesInCarriage = totalPlaces - seatingPlacesInCarriage;
+        int peopleInCarriageNow = 103;
+        if (peopleInCarriageNow >= seatingPlacesInCarriage && peopleInCarriageNow <= totalPlaces) {
+            int standingPlacesInCarriageNow = totalPlaces - peopleInCarriageNow;
+            System.out.println("В вагоне осталось "  + standingPlacesInCarriageNow + " стоячих места");
+        }
+        if (peopleInCarriageNow < seatingPlacesInCarriage) {
+            int seatingPlacesInCarriageNow = seatingPlacesInCarriage - peopleInCarriageNow;
+            System.out.println("В вагоне осталось " + seatingPlacesInCarriageNow + " сидячих мест и " + standingPlacesInCarriage + " стоячих мест");
+        }
+        else {
+            System.out.println("Вагон полностью забит");
+        }
+
+
+
+
+
 
 
     }
