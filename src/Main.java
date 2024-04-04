@@ -87,17 +87,5 @@ public class Main {
         else {
             System.out.println("Какие то два числа равны друг другу");
         }
-
-
-
-
-
-
-
-
     }
-
-
-
-
 }
