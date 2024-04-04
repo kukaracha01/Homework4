@@ -9,12 +9,12 @@ public class Main {
         }
 
         System.out.println("Task2");
-        int teamperature = -12;
-        if (teamperature < 5) {
-            System.out.println("На улице " + teamperature + " градусов, нужно надеть шапку");
+        int temperature = -12;
+        if (temperature < 5) {
+            System.out.println("На улице " + temperature + " градусов, нужно надеть шапку");
         }
         else {
-            System.out.println("На улице " + teamperature + " градусов, можно идти без шапки");
+            System.out.println("На улице " + temperature + " градусов, можно идти без шапки");
 
         }
 
@@ -57,7 +57,7 @@ public class Main {
         int totalPlaces = 102;
         int seatingPlacesInCarriage = 60;
         int standingPlacesInCarriage = totalPlaces - seatingPlacesInCarriage;
-        int peopleInCarriageNow = 103;
+        int peopleInCarriageNow = 15;
         if (peopleInCarriageNow >= seatingPlacesInCarriage && peopleInCarriageNow <= totalPlaces) {
             int standingPlacesInCarriageNow = totalPlaces - peopleInCarriageNow;
             System.out.println("В вагоне осталось "  + standingPlacesInCarriageNow + " стоячих места");
@@ -72,27 +72,21 @@ public class Main {
 
         System.out.println("Task7");
 
-        int one = 15;
+        int one = 17;
         int two = 17;
-        int three = 5;
-        boolean oneTheBigest;
+        int three = 55;
         if (one > two && one > three) {
-            oneTheBigest = true;
             System.out.println("Первое число самое большое из трех");
         }
-        else oneTheBigest = false;
-        boolean twoTheBigest;
         if (two > one && two >three) {
-            twoTheBigest = true;
             System.out.println("Второе число самое большое из трех");
         }
-        else twoTheBigest = false;
-        boolean threeTheBigest;
         if (three > two && three > one) {
-            threeTheBigest = true;
             System.out.println("Третье число самое большое из трех");
         }
-        else threeTheBigest = false;
+        else {
+            System.out.println("Какие то два числа равны друг другу");
+        }
 
 
 
